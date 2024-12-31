@@ -2,8 +2,18 @@
 <img src="https://i.imgur.com/Clzj7Xs.png"/>
 </p>
 
-<h1> How to Install osTicket </h1>
+<h1>Post-Install Configuration</h1>
 This is an easy guide to installing a help desk ticketing system called osTicket.<br/>
+
+ <h2> Objectives </h2>
+
+- Configure Roles
+- Configure Department
+- Configure Teams
+- Configure Agents
+- Configure Users
+- Configure SLA
+- Configure Help-Topics
 
 
 <h2> Software & Technologies  Used</h2>
@@ -13,11 +23,7 @@ This is an easy guide to installing a help desk ticketing system called osTicket
 - XAMPP v8.2.12</br>
 - osTicket v1.18.1
 
-  <h2> Objectives </h2>
-
-- Create Windows 10 virtual machine
-- Install XAAMP (latest version)
-- Install osTicket (latest version)
+ 
 
   <h2>Steps</h2>
 <h3 align="center">Create Windows 10 Virtual Machine</h3>
