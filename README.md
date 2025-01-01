@@ -38,11 +38,11 @@ This will outline the post-installation configuration of osTicket.<br/>
 <br />
 </p>
 <p>
-	<img src="https://i.postimg.cc/CLzj7VN8/XAMPPControl-Panel.png" height="75%" width="100%" />
+	<img src="https://i.postimg.cc/0N0dBWf8/Add-New-Department.png" height="75%" width="100%" />
 </p>
 <br />
 <br />
-<h3 align="center">After you set up the Windows 10 virtual machine, you will want to open the browser in your machine, the default will be Edge, and download the latest version of <a href="https://www.apachefriends.org/download.html" target="_blank">XAMPP</a>. During installation, leave everything default. After you have XAMPP installed, go ahead and start Apache and MySQL. </h3>
+<h3 align="center"> We'll set up a new department next. If a ticket comes into an agent in the Support department that the System Administration department would better handle, they can pass it off. From the Admin Panel, click on Agents, Department, and then Add New Department. In this lab, I kept it simple</h3>
 <br />
 <p>
 	<div align="center">
