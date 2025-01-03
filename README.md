@@ -61,13 +61,13 @@ This will outline the post-installation configuration of osTicket.<br/>
   <img src="https://i.postimg.cc/br3JstQs/Add-New-Agent.png" height="75%" width="100%"/>
 </p>
 <br />
-<h3 align="center">Now we need to make a couple of new agents to work on the tickets. Admin Panel -> Agents -> Agents -> Add New. Give them whatever name and email you want; it doesn't have to be a real email and make the username their first name. Then click Set Password and uncheck "Send agent a password reset email" if it has already been checked. Make a simple password you can remember; I suggest noting down the username and password somewhere, like the Notepad app. After you create the agent, click on the Access tab, put the agent in a department, and give them a role. You can choose which ones to use based on the agent you create. Next, click on the Permissions tab and adjust those accordingly. Finally, click the Teams tab and put the agent in one of the Teams we created earlier. Either Level 1 or Level 2 support. <a href="https://docs.osticket.com/en/latest/Admin/Agents/Agents.html" target="_blank"> Documentation</a></h3>
+<h3 align="center">Now we need to make a couple of new agents(workers) to work on the tickets. Admin Panel -> Agents -> Agents -> Add New. Give them whatever name and email you want; it doesn't have to be a real email and make the username their first name. Then click Set Password and uncheck "Send agent a password reset email" if it has already been checked. Make a simple password you can remember; I suggest noting down the username and password somewhere, like the Notepad app. After you create the agent, click on the Access tab, put the agent in a department, and give them a role. You can choose which ones to use based on the agent you create. Next, click on the Permissions tab and adjust those accordingly. Finally, click the Teams tab and put the agent in one of the Teams we created earlier. Either Level 1 or Level 2 support. You can create as many agents as you want. <a href="https://docs.osticket.com/en/latest/Admin/Agents/Agents.html" target="_blank"> Documentation</a></h3>
 <br />
 <p>
-  <img src="https://i.postimg.cc/xTRXwz5n/pathforos-confignamechange.png"height="75%" width="100%"/>
+  <img src="https://i.postimg.cc/SNC5zTG9/Add-New-User.png"height="75%" width="100%"/>
 </p>
 <br/>
-<h3 align="center">The next page will tell you you are missing the configuration file. The above picture is the path to the ost-sampleconfig.php file, which you need to rename to ost-config.php.</h3>
+<h3 align="center">Next, lets create a couple of users(customers). You need to switch to the Agent Panel to create Users before you proceed. Agent Panel -> Users -> Add New. Again, just give them whatever email you want, put in a full name, and leave the rest empty. When you click on User Directory, you should see the new users you have created.<a href="https://docs.osticket.com/en/latest/Agent/Users/User%20Directory.html#add-new-users" target="_blank"> Documentation</a></h3>
 <br />
 <p>
   <img src="https://i.postimg.cc/nLbwL5tF/os-Ticket-Basic-Install.png" height="75%" width="100%"/>
