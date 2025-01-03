@@ -55,19 +55,19 @@ This will outline the post-installation configuration of osTicket.<br/>
 </p>
 <br />
 <br />
-<h3 align="center">We need to a setting that allows everyone to </h3>
+<h3 align="center">We need a setting that allows everyone to create a ticket without logging in. From the Admin Panel, click on the Settings tab, then click on Users Settings. Uncheck the "Require registration and login to create ticket" box if it is checked; if not, just leave it unchecked. Registration Method should also be set to public. </h3>
 <br />
 <p>
-  <img src="https://i.postimg.cc/J4tx0MFw/localhostpath.png" height="75%" width="100%"/>
+  <img src="https://i.postimg.cc/br3JstQs/Add-New-Agent.png" height="75%" width="100%"/>
 </p>
 <br />
-<h3 align="center">Go back to the XAMPP control panel, make sure Apache and MySQL are started, and click on the Admin action beside Apache. It will likely open into the "localhost/dashboard/" link. Change the dashboard to osTicket or whatever you changed the name of your osTicket folder to. It should look like the picture above. Click on the upload folder and click continue on the setup page for a default setup. You can always enable the other features later if you need them.</h3>
+<h3 align="center">Now we need to make a couple of new agents to work on the tickets. Admin Panel -> Agents -> Agents -> Add New. Give them whatever name and email you want; it doesn't have to be a real email and make the username their first name. Then click Set Password and uncheck "Send agent a password reset email" if it has already been checked. Make a simple password you can remember; I suggest noting down the username and password somewhere, like the Notepad app. After you create the agent, click on the Access tab, put the agent in a department, and give them a role. You can choose which ones to use based on the agent you create. Next, click on the Permissions tab and adjust those accordingly. Finally, click the Teams tab and put the agent in one of the Teams we created earlier. Either Level 1 or Level 2 support. <a href="https://docs.osticket.com/en/latest/Admin/Agents/Agents.html" target="_blank"> Documentation</a></h3>
 <br />
 <p>
   <img src="https://i.postimg.cc/xTRXwz5n/pathforos-confignamechange.png"height="75%" width="100%"/>
 </p>
 <br/>
-<h3 align="center">The next page will tell you that you are missing the configuration file. The above picture is the path to the ost-sampleconfig.php file which you need to rename to ost-config.php.</h3>
+<h3 align="center">The next page will tell you you are missing the configuration file. The above picture is the path to the ost-sampleconfig.php file, which you need to rename to ost-config.php.</h3>
 <br />
 <p>
   <img src="https://i.postimg.cc/nLbwL5tF/os-Ticket-Basic-Install.png" height="75%" width="100%"/>
