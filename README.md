@@ -27,11 +27,11 @@ This will outline the post-installation configuration of osTicket.<br/>
 
   <h2>Steps</h2>
 <p>
-<h3 align="center">Note: Before you continue, ensure XAMPP Apache and MySQL are still running and you have logged into your osTicket admin account, which you made in the previous steps. Here is the link to the login page: http://localhost/osticket/upload/scp/login.php. After logging in, ensure you are in the Admin Panel, not the Agent Panel. Look up the top right where it says Welcome; if it says Agent Panel, you are in the Admin Panel. If it says Admin Panel, you are in the Agent Panel. Reference the picture below. I will leave links to the osTicket documentation with each step.</h3>
+<h3 align="center">Note: Before you continue, ensure XAMPP Apache and MySQL are still running, and you have logged into your osTicket admin account, which you made in the previous steps. Here is the link to the login page: http://localhost/osticket/upload/scp/login.php. After logging in, ensure you are in the Admin Panel, not the Agent Panel. Look at the top right where it says Welcome; if it says Agent Panel, you are in the Admin Panel. If it says Admin Panel, you are in the Agent Panel. Reference the picture below. I will leave links to the osTicket documentation with each step.</h3>
 <br />
 </p>
 <p>
- <img src="https://i.postimg.cc/PrS169Qt/Add-New-Role.png" height="75%" width="100%">
+	<img src="https://i.postimg.cc/PrS169Qt/Add-New-Role.png" height="75%" width="100%">
 </p>
 <p>
 <h3 align="center">From the Admin Panel, you should be at the settings tab by default. Click on Agents to the far right and then click on Roles. Then click on Add New Role. Create the name of the role, then click on the permissions tab. I created the Supreme Admin role for demonstration, so all permissions are checked. The permission given will depend on the role you are creating. <a href="https://docs.osticket.com/en/latest/Admin/Agents/Roles.html" target="_blank">Documentation</a></h3>
@@ -42,30 +42,26 @@ This will outline the post-installation configuration of osTicket.<br/>
 </p>
 <br />
 <br />
-<h3 align="center"> We'll set up a new department next. If a ticket comes into an agent in the Support department that the System Administration department would better handle, they can pass it off. From the Admin Panel, click on Agents, Department, and then Add New Department. In this lab, I kept it simple</h3>
+<h3 align="center"> We'll set up a new department next. If a ticket comes into an agent in the Support department that the System Administrator department would better handle, they can pass it off. From the Admin Panel, click on Agents, Department, and then Add New Department. In this lab, I kept it simple and kept all default settings, but in a real environment, you would want to change a few of these accordingly. We will set up the SLA later. <a href="https://docs.osticket.com/en/latest/Admin/Agents/Departments.html" target="_blank">Documentation</a></h3>
 <br />
 <p>
-	<div align="center">
-  <img src="https://i.postimg.cc/1tztSwJj/os-Ticket-Install-Page.png" alt="Image 1" height="75%" width="45%">
-  <img src="https://i.postimg.cc/VsXCRQdG/os-Ticket-Git-Hub.png" alt="Image 2" height="75%" width="45%">
-</div>
-	
+	<img src="https://i.postimg.cc/pXR67ZZD/Add-New-Team.png" height="75%" width="100%" />
 </p>
 <br />
-<h3 align="center">Now that XAMPP is up and running, it's time to download the osTicket .zip folder. You can find the latest version of osTicket <a href="https://osticket.com/download/" target="_blank">here</a>. I circled what you need to click on each page to download the osTicket .zip folder only. After downloading the osTicket .zip folder, right-click it and extract all. After you extract the osTicket folder, I suggest renaming it to "osTicket." </h3>
+<h3 align="center">Now, we'll create a new team. Teams are how you group people together; level 1, 2, and 3 support, for example. Click on the Agents tab if you aren't already, then click on Teams, and then Add New Team. Refer to the picture above. Since there are no members of the newly created team, you can either make yourself the team lead or leave it blank. For lab purposes, it doesn't matter.</h3>
 <br />
 <p>
 	<img src="https://i.postimg.cc/zfN9gyXj/Path-Foros-Ticket-In-XAMPP.png" height="75%" width="100%" />
 </p>
 <br />
 <br />
-<h3 align="center">Now, we want to move the unzipped osTicket folder into your XAMPP server. You can do this by either right-clicking and copying the folder, then pasting it in the htdocs folder, or clicking ctrl + x and then pasting it to the htdocs folder. The path for this is "C:\xampp\htdocs." After you paste the file, it should look like the image above. </h3>
+<h3 align="center">Now, we want to move the unzipped osTicket folder into your XAMPP server. You can do this by right-clicking and copying the folder and pasting it in the htdocs folder or clicking ctrl + x and then pasting it to the htdocs folder. The path for this is "C:\xampp\htdocs." After you paste the file, it should look like the image above. </h3>
 <br />
 <p>
   <img src="https://i.postimg.cc/J4tx0MFw/localhostpath.png" height="75%" width="100%"/>
 </p>
 <br />
-<h3 align="center">Go back to the XAMPP control panel, make sure Apache and MySQL are started, and click on the Admin action beside Apache. It will likely open into the "localhost/dashboard/" link. Change dashboard to osTicket or whatever you changed the name of your osTicket folder to. It should look like the picture above. Click on the upload folder and click continue on the setup page for a default setup. You can always enable the other features later if you need them.</h3>
+<h3 align="center">Go back to the XAMPP control panel, make sure Apache and MySQL are started, and click on the Admin action beside Apache. It will likely open into the "localhost/dashboard/" link. Change the dashboard to osTicket or whatever you changed the name of your osTicket folder to. It should look like the picture above. Click on the upload folder and click continue on the setup page for a default setup. You can always enable the other features later if you need them.</h3>
 <br />
 <p>
   <img src="https://i.postimg.cc/xTRXwz5n/pathforos-confignamechange.png"height="75%" width="100%"/>
