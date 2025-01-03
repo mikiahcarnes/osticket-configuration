@@ -70,24 +70,29 @@ This will outline the post-installation configuration of osTicket.<br/>
 <h3 align="center">Next, lets create a couple of users(customers). You need to switch to the Agent Panel to create Users before you proceed. Agent Panel -> Users -> Add New. Again, just give them whatever email you want, put in a full name, and leave the rest empty. When you click on User Directory, you should see the new users you have created.<a href="https://docs.osticket.com/en/latest/Agent/Users/User%20Directory.html#add-new-users" target="_blank"> Documentation</a></h3>
 <br />
 <p>
-  <img src="https://i.postimg.cc/nLbwL5tF/os-Ticket-Basic-Install.png" height="75%" width="100%"/>
+  <img src="https://i.postimg.cc/wMNwn71b/Add-New-SLAPlan.png" height="75%" width="100%"/>
 </p>
 <br/>
-<h3 align="center">This page is where you will setup where you will name your helpdesk and create the admin user. You do not have to use a real email for either of these but they do need to be different emails. Be sure to take note of your username and password for the admin user login.</h3>
+<h3 align="center">We must set up a few SLAs now. SLA (Service Level Agreement) in osTicket exists to provide a length of time in which the help desk admin expects tickets to be closed. You will need to switch back to the Admin Panel for this step. Admin Panel -> Manage -> SLA -> Add New SLA Plan.</h3>
 <br />
 <p>
-  <img src="https://i.postimg.cc/85nZ0Svt/Database-Set-Up.png" height="75%" width="100%"/>
+	<div align="center">
+  		<img src="https://i.postimg.cc/Hx4ZwHW7/Sev-A.png" alt="Image 1" height="75%" width="33%">
+  		<img src="https://i.postimg.cc/0rgz9gmc/Sev-B.png" alt="Image 2" height="75%" width="33%">
+  		<img src="https://i.postimg.cc/HxqMk71w/Sev-C.png" alt="Image 3" height="75%" width="33%">
+	</div>
+ 
 </p>
 <br/>
-<h3 align="center">Go back to the XAMPP Control Panel and click on the Admin action beside MySQL. This will bring you to the phpmyadmin page shown above. On the left side of the page click new to create a new database. Name it whatever you want to.</h3>
+<h3 align="center">The first SLA I made is Sev-A, which has a grace period of 1 hour and a schedule of 24/7. Something that would fit into this SLA is a server outage or some other business-critical problem. Something that would need to be solved quickly. The second SLA I made is Sev-B, which has a grace period of 4 hours and a schedule of 24/7. Something that would fit into this SLA is a failed backup or some other high-priority but not business-critical problem. </h3>
 <br/>
 <p>
-  <img src="https://i.postimg.cc/4xzrYK8L/Login-Info-Database.png" height="75%" width="100%"/>
+  <img src="" height="75%" width="100%"/>
 </p>
 <br/>
-<h3 align="center">Now we need to make a new user for the database. After the database is created you will see it to the left of the page at the bottom. Click on it and click on the privileges tab and click on add user account. You can name it whatever you what, but make sure the Host name is set to Local and localhost. Again, remember to take note of your username and password. Then, scroll down a bit and you will see the Global privileges section, go ahead and check all. Then scroll all the way down and click Go. After the database has been made go back to the osTicket setup page and type in the into. MySQL Hostname, MySQL Database, MySQL Usename, and MySQL Password.</h3>
+<h3 align="center"></h3>
 <p>
-  <img src="https://i.postimg.cc/T1hdkQ9S/After-Install.png" height="75%" width="100%" />
+  <img src="" height="75%" width="100%" />
 </p>
 <br/>
-<h3 align="center">Your install page will look different from the one above, but nonetheless. You have now installed osTicket! You can now follow the instructions for Config file permissions. After that head over to the Admin Panel, which you will see a link to on the right of the page, and continue with configuring osTicket.</h3>
+<h3 align="center"></h3>
