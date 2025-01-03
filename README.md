@@ -34,7 +34,7 @@ This will outline the post-installation configuration of osTicket.<br/>
 	<img src="https://i.postimg.cc/PrS169Qt/Add-New-Role.png" height="75%" width="100%">
 </p>
 <p>
-<h3 align="center">From the Admin Panel, you should be at the settings tab by default. Click on Agents to the far right and then click on Roles. Then click on Add New Role. Create the name of the role, then click on the permissions tab. I created the Supreme Admin role for demonstration, so all permissions are checked. The permission given will depend on the role you are creating. <a href="https://docs.osticket.com/en/latest/Admin/Agents/Roles.html" target="_blank">Documentation</a></h3>
+<h3 align="center">From the Admin Panel, you should be at the settings tab by default. Click on Agents to the far right and then click on Roles. Then click on Add New Role. Create the name of the role, then click on the permissions tab. I created the Supreme Admin role for demonstration, so all permissions are checked. The permission given will depend on the role you are creating. <a href="https://docs.osticket.com/en/latest/Admin/Agents/Roles.html" target="_blank"> Documentation</a></h3>
 <br />
 </p>
 <p>
@@ -42,20 +42,20 @@ This will outline the post-installation configuration of osTicket.<br/>
 </p>
 <br />
 <br />
-<h3 align="center"> We'll set up a new department next. If a ticket comes into an agent in the Support department that the System Administrator department would better handle, they can pass it off. From the Admin Panel, click on Agents, Department, and then Add New Department. In this lab, I kept it simple and kept all default settings, but in a real environment, you would want to change a few of these accordingly. We will set up the SLA later. <a href="https://docs.osticket.com/en/latest/Admin/Agents/Departments.html" target="_blank">Documentation</a></h3>
+<h3 align="center"> We'll set up a new department next. If a ticket comes into an agent in the Support department that the System Administrator department would better handle, they can pass it off. From the Admin Panel, click on Agents, Department, and then Add New Department. In this lab, I kept it simple and kept all default settings, but in a real environment, you would want to change a few of these accordingly. We will set up the SLA later.<a href="https://docs.osticket.com/en/latest/Admin/Agents/Departments.html" target="_blank"> Documentation</a></h3>
 <br />
 <p>
 	<img src="https://i.postimg.cc/pXR67ZZD/Add-New-Team.png" height="75%" width="100%" />
 </p>
 <br />
-<h3 align="center">Now, we'll create a new team. Teams are how you group people together; level 1, 2, and 3 support, for example. Click on the Agents tab if you aren't already, then click on Teams, and then Add New Team. Refer to the picture above. Since there are no members of the newly created team, you can either make yourself the team lead or leave it blank. For lab purposes, it doesn't matter.</h3>
+<h3 align="center">Now, we'll create a new team. Teams are how you group people together; level 1, 2, and 3 support, for example. Click on the Agents tab if you aren't already, then click on Teams, and then Add New Team. Refer to the picture above. Since there are no members of the newly created team, you can either make yourself the team lead or leave it blank. For lab purposes, it doesn't matter. <a href="https://docs.osticket.com/en/latest/Admin/Agents/Teams.html" target="_blank"> Documentation</a></h3>
 <br />
 <p>
-	<img src="https://i.postimg.cc/zfN9gyXj/Path-Foros-Ticket-In-XAMPP.png" height="75%" width="100%" />
+	<img src="https://i.postimg.cc/J0rCRt0p/Allow-Anyone-To-Create-Tickets.png" height="75%" width="100%" />
 </p>
 <br />
 <br />
-<h3 align="center">Now, we want to move the unzipped osTicket folder into your XAMPP server. You can do this by right-clicking and copying the folder and pasting it in the htdocs folder or clicking ctrl + x and then pasting it to the htdocs folder. The path for this is "C:\xampp\htdocs." After you paste the file, it should look like the image above. </h3>
+<h3 align="center">We need to a setting that allows everyone to </h3>
 <br />
 <p>
   <img src="https://i.postimg.cc/J4tx0MFw/localhostpath.png" height="75%" width="100%"/>
