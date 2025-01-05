@@ -84,7 +84,7 @@ This will outline the post-installation configuration of osTicket.<br/>
  
 </p>
 <br/>
-<h3 align="center">The first SLA I made is Sev-A, which has a grace period of 1 hour and a schedule of 24/7. Something that would fit into this SLA is a server outage or some other business-critical problem. Something that would need to be solved quickly. The second SLA I made is Sev-B, which has a grace period of 4 hours and a schedule of 24/7. Something that would fit into this SLA is a failed backup or some other high-priority but not business-critical problem. </h3>
+<h3 align="center">The first SLA I made is Sev-A, which has a grace period of 1 hour and a schedule of 24/7. Something that would fit into this SLA is a server outage or some other business-critical problem. Something that would need to be solved quickly. The second SLA I made is Sev-B, which has a grace period of 4 hours and a schedule of 24/7. Something that would fit into this SLA is a failed backup or some other high-priority but not business-critical problem. The third SLA I made is Sev-C, which has a grace period of 8 hours and a business hours schedule. Moderate to low-priority issues fall into this SLA. Something like a password reset or the printer not working.</h3>
 <br/>
 <p>
   <img src="" height="75%" width="100%"/>
