@@ -73,7 +73,7 @@ This will outline the post-installation configuration of osTicket.<br/>
   <img src="https://i.postimg.cc/wMNwn71b/Add-New-SLAPlan.png" height="75%" width="100%"/>
 </p>
 <br/>
-<h3 align="center">We must set up a few SLAs now. SLA (Service Level Agreement) in osTicket exists to provide a length of time in which the help desk admin expects tickets to be closed. You will need to switch back to the Admin Panel for this step. Admin Panel -> Manage -> SLA -> Add New SLA Plan.</h3>
+<h3 align="center">We must set up a few SLAs now. SLA (Service Level Agreement) in osTicket exists to provide a length of time in which the help desk admin expects tickets to be closed. You will need to switch back to the Admin Panel for this step. Admin Panel -> Manage -> SLA -> Add New SLA Plan.<a href="https://docs.osticket.com/en/latest/Admin/Manage/SLA%20Plans.html" target="_blank"> Documentation</a></h3>
 <br />
 <p>
 	<div align="center">
