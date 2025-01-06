@@ -87,12 +87,7 @@ This will outline the post-installation configuration of osTicket.<br/>
 <h3 align="center">The first SLA I made is Sev-A, which has a grace period of 1 hour and a schedule of 24/7. Something that would fit into this SLA is a server outage or some other business-critical problem. Something that would need to be solved quickly. The second SLA I made is Sev-B, which has a grace period of 4 hours and a schedule of 24/7. Something that would fit into this SLA is a failed backup or some other high-priority but not business-critical problem. The third SLA I made is Sev-C, which has a grace period of 8 hours and a business hours schedule. Moderate to low-priority issues fall into this SLA. Something like a password reset or the printer not working.</h3>
 <br/>
 <p>
-  <img src="" height="75%" width="100%"/>
+  <img src="https://i.postimg.cc/pTsThJLZ/Help-Topic-Options.png" height="75%" width="100%"/>
 </p>
 <br/>
-<h3 align="center"></h3>
-<p>
-  <img src="" height="75%" width="100%" />
-</p>
-<br/>
-<h3 align="center"></h3>
+<h3 align="center">Lastly, we'll create some help topics for the users to choose when creating a ticket. Admin Panel -> Manage -> Help Topics -> Add New Help Topic. You can create whatever help topics you want, but I will give you a few for reference. Business Critical Outage, Personal Computer Issues, Equipment Request, and Password Reset. By clicking on the "New ticket options" tab, you can change the Department and Priority of the topics. A password reset won't have the same priority as a business-critical outage, so it's important to adjust the priority and department to which the topic belongs. <a href="https://docs.osticket.com/en/latest/Admin/Manage/Help%20Topic.html" target="_blank"> Documentation</a></h3>
